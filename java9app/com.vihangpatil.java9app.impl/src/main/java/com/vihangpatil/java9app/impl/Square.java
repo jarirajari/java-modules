@@ -1,4 +1,4 @@
-package com.vihangpatil.java9app.defaultimpl;
+package com.vihangpatil.java9app.impl;
 
 import com.vihangpatil.java9app.api.Shape;
 
@@ -15,6 +15,6 @@ public class Square implements Shape {
 
     @Override
     public long getArea() {
-        return side * side;
+        return Math.round(1.0 * side * side);
     }
 }
